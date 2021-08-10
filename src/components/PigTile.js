@@ -14,6 +14,7 @@ function PigTile( { hogs }) {
     return (
         <div>
             <PigMap hogs={hogs}/>
+            
         </div>
 
     )

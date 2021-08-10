@@ -23,27 +23,8 @@ function PigMap({ hogs, clickImage }) {
 
         }})
         
-
-    // const [selectedCategory, setSelectedCategory] = useState("");
-
-    // function handleCategoryChange(event) {
-    //   setSelectedCategory(event.target.value);
-    // }
-
-    // const itemsFilter = items.filter((item) => {
-    //   if (selectedCategory === "") return true;
-
-    //   return item.category === selectedCategory;
-    // });
-
-
-
     function clickImage() {
         return setData(!showData)
-    }
-
-    function pigMaps() {
-        return pigMap
     }
 
     let pigMap = hogs.map(hog => {
